@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# 🛒 E-commerce com ReactJS e Consumo de API
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Interface inicial de um e-commerce desenvolvida com **ReactJS**, utilizando dados da [FakeStoreAPI](https://fakestoreapi.com/products). A aplicação exibe uma listagem de produtos com informações como **nome**, **imagem**, **preço** e **categoria**, de forma responsiva e componentizada.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Tecnologias Utilizadas
 
-### `npm start`
+- ReactJS
+- Bootstrap 
+- JavaScript 
+- React Hooks (`useState` e `useEffect`)
+- Fetch API
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🧩 Funcionalidades
 
-### `npm test`
+- Consumo de produtos via API RESTful
+- Exibição de:
+  - Nome do produto
+  - Imagem do produto
+  - Preço
+  - Categoria
+- Tela com pelo menos 10 produtos
+- Layout responsivo com Bootstrap
+- Componentes reutilizáveis:
+  - Lista de produtos
+  - Cartão individual de produto
+- Mensagem de **"Carregando..."** enquanto os dados são buscados
+- Mensagem de erro caso a API não esteja acessível
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ⚙️ Como Executar
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone o repositório:**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/isabelly-remigio/Ecommerce.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Instale as dependências:**
 
-### `npm run eject`
+```bash
+npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Inicie o servidor de desenvolvimento:**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> O projeto será iniciado em `http://localhost:3000`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🔗 API Utilizada
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Fake Store API](https://fakestoreapi.com/products)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📚 Aprendizados
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Utilização prática de hooks (`useEffect`, `useState`)
+- Componentização com React
+- Integração com API externa
+- Aplicação de Bootstrap para estilização responsiva
+- Condicional de carregamento e tratamento de erros
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👩‍💻 Desenvolvedora
 
-### Making a Progressive Web App
+**Isabelly Remigio**  
+[GitHub: isabelly-remigio](https://github.com/isabelly-remigio)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📄 Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Projeto desenvolvido para fins educacionais e prática com ReactJS.
