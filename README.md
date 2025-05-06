@@ -37,7 +37,7 @@ Interface inicial de um e-commerce desenvolvida com **ReactJS**, utilizando dado
 1. **Clone o repositório:**
 
 ```bash
-git clone https://github.com/isabelly-remigio/Ecommerce.git
+https://github.com/isabelly-remigio/E-commerce-com-ReactJS-e-Consumo-de-API.git
 ```
 
 2. **Instale as dependências:**
